@@ -27,7 +27,7 @@ To compile the code, use the following commands:
 ```bash
 gcc -o airport airport.c -lpthread
 gcc -o plane plane.c
-gcc -o airtrafficcontroller airtrafficcontroller.c
+gcc -o ATC airtrafficcontroller.c
 gcc -o cleanup cleanup.c
 ```
 
@@ -38,7 +38,7 @@ Make sure that each instance of a plane and airport is running in different term
 </br>ATC and cleanup need only one terminal each.
 
 ```bash
-./airtrafficcontroller
+./ATC
 ```
 ```bash
 ./airport
